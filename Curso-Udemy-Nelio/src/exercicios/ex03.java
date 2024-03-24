@@ -19,12 +19,15 @@ public class ex03 {
 		while (tipo != 4) {
 			if (tipo == 1) {
 				alcool = alcool + 1;
+				System.out.println("Alcool selecionado.");
 			}
 			else if (tipo == 2) {
 				gasolina = gasolina + 1;
+				System.out.println("Gasolina selecionada");
 			}
 			else if (tipo == 3) {
 				diesel = diesel + 1;
+				System.out.println("Diesel selecionado");
 			}
 			
 			tipo = sc.nextInt();
