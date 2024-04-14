@@ -20,7 +20,7 @@ public class Program {
         //Encontrar a posicao de um elemento
         list.indexOf("Felipe");
         //Deixar na lista apenas aqieles que comecam com M
-        List<String> result = list.stream().filter(x-> x.charAt(0)=='M').collect(Collectors.toList());
+        List<String> result = list.stream().filter(x-> x.charAt(0)=='M').collect(null);
         
 
     }
