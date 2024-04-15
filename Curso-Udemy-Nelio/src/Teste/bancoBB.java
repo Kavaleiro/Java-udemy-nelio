@@ -13,7 +13,6 @@ public class bancoBB {
         this.nome = nome;
         this.numero = numero;
         deposito(valor);
-
     }
 
     public String getNome(){
